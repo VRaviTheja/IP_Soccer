@@ -1,0 +1,34 @@
+﻿Build started 20-09-2014 18:17:47.
+     1>Project "c:\Users\ravi theja\documents\visual studio 2010\Projects\demo2\demo2\demo2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\demo2.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV\opencv\build\include\opencv2 /IC:\OpenCV\opencv\build\include\opencv /IC:\OpenCV\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\demo2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt demo2cpp.cpp
+         demo2cpp.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\demo2.exe.embed.manifest.res" Debug\demo2_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ravi theja\documents\visual studio 2010\Projects\demo2\Debug\demo2.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenCV\opencv\build\x86\vc10\lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\demo2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\ravi theja\documents\visual studio 2010\Projects\demo2\Debug\demo2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ravi theja\documents\visual studio 2010\Projects\demo2\Debug\demo2.lib" /MACHINE:X86 Debug\demo2.exe.embed.manifest.res
+         Debug\demo2.obj
+         Debug\demo2cpp.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\demo2.exe.embed.manifest" /manifest Debug\demo2.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\demo2.exe.embed.manifest.res" Debug\demo2_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ravi theja\documents\visual studio 2010\Projects\demo2\Debug\demo2.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenCV\opencv\build\x86\vc10\lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\demo2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\ravi theja\documents\visual studio 2010\Projects\demo2\Debug\demo2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ravi theja\documents\visual studio 2010\Projects\demo2\Debug\demo2.lib" /MACHINE:X86 Debug\demo2.exe.embed.manifest.res
+         Debug\demo2.obj
+         Debug\demo2cpp.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+         demo2.vcxproj -> c:\users\ravi theja\documents\visual studio 2010\Projects\demo2\Debug\demo2.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\demo2.unsuccessfulbuild".
+         Touching "Debug\demo2.lastbuildstate".
+     1>Done Building Project "c:\Users\ravi theja\documents\visual studio 2010\Projects\demo2\demo2\demo2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.37

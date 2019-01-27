@@ -1,0 +1,23 @@
+﻿Build started 20-06-2015 07:50:52.
+     1>Project "C:\Users\Ravi Theja\documents\visual studio 2010\Projects\cog\cog\cog.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\cog.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV\opencv\build\include /IC:\OpenCV\opencv\build\include\opencv2 /IC:\OpenCV\opencv\build\include\opencv /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\cog.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cogcpp.cpp
+         cogcpp.cpp
+     1>c:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\opencv\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\opencv\opencv\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>c:\users\ravi theja\documents\visual studio 2010\projects\cog\cog\cogcpp.cpp(22): error C2086: 'int posX1' : redefinition
+                 c:\users\ravi theja\documents\visual studio 2010\projects\cog\cog\cogcpp.cpp(19) : see declaration of 'posX1'
+     1>c:\users\ravi theja\documents\visual studio 2010\projects\cog\cog\cogcpp.cpp(92): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ravi theja\documents\visual studio 2010\projects\cog\cog\cogcpp.cpp(93): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ravi theja\documents\visual studio 2010\projects\cog\cog\cogcpp.cpp(94): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ravi theja\documents\visual studio 2010\projects\cog\cog\cogcpp.cpp(95): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Done Building Project "C:\Users\Ravi Theja\documents\visual studio 2010\Projects\cog\cog\cog.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.33
